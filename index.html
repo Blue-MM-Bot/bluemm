@@ -1,16 +1,130 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Transcripts</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue's AutoMM - Your Reliable LTC Middleman Discord Bot</title>
+    <link rel="icon" type="https://cdn.discordapp.com/attachments/1244694842651705385/1259730807464132678/pfp.png?ex=668cbf3d&is=668b6dbd&hm=e03b96d1ffac7e7d883f86ae60a1e13da124c3edc2c44197de6455db59beb652&" href="favicon.png">
+    <meta name="description" content="Blue Auto MM is a trustworthy LTC middleman Discord bot, ensuring secure and efficient transactions 24/7 with dedicated support and advanced automation.">
+    <meta name="keywords" content="LTC, middleman, Discord bot, secure transactions, automation, support, cryptocurrency">
+    <meta name="author" content="Bluemm Team">
+    
+    <!-- Open Graph Meta Tags for social media sharing -->
+    <meta property="og:title" content="Blue's AutoMM - Your Reliable LTC Middleman Discord Bot">
+    <meta property="og:description" content="Bluemm ensures safe and efficient LTC transactions on Discord with advanced automation and dedicated support.">
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1244694842651705385/1259730807464132678/pfp.png?ex=668cbf3d&is=668b6dbd&hm=e03b96d1ffac7e7d883f86ae60a1e13da124c3edc2c44197de6455db59beb652&"> <!-- Replace with actual image URL -->
+    <meta property="og:url" content="https://automm.pro"> <!-- Replace with your website URL -->
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Blue's AutoMM - Your Reliable LTC Middleman Discord Bot">
+    <meta name="twitter:description" content="Secure your LTC transactions with Bluemm, a powerful Discord bot providing 24/7 service and support.">
+    <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/1244694842651705385/1259730807464132678/pfp.png?ex=668cbf3d&is=668b6dbd&hm=e03b96d1ffac7e7d883f86ae60a1e13da124c3edc2c44197de6455db59beb652&"> <!-- Replace with actual image URL -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="web/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <h1>Transcripts</h1>
-    <ul>
-        {% for file in site.static_files %}
-          {% if file.path contains '/transcripts/' %}
-            <li><a href="{{ file.path }}">{{ file.name }}</a></li>
-          {% endif %}
-        {% endfor %}
-    </ul>
+    <header>
+        <div class="container">
+            <h1>Blue's AutoMM</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://discord.com/oauth2/authorize?client_id=861696191346245633&scope=bot+applications.commands&permissions=8">Invite</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h2>Welcome to Blue's Auto MM</h2>
+            <p>Your reliable LTC middleman Discord bot.</p>
+            <p>With Blue, you can safely and efficiently manage Litecoin transactions directly on Discord. Our bot offers advanced automation and is supported by a dedicated team, ensuring your trades are always secure and smooth. Available 24/7, Bluemm is your trusted partner in the world of cryptocurrency transactions.</p>
+
+            <a href="https://discord.com/oauth2/authorize?client_id=861696191346245633&scope=bot+applications.commands&permissions=8" class="button">Invite Blue Bot</a>
+            <a href="https://discord.gg/fusionmm" class="button">Join Support Server</a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>About Blue's AutoMM</h2>
+            <p>Bluemm is designed to provide secure and reliable middleman services for LTC transactions on Discord. Our mission is to ensure the safety and efficiency of your trades.</p>
+        </div>
+    </section>
+    <section id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <i class="fas fa-lock"></i>
+                    <h3>Secure Transactions</h3>
+                    <p>We provide a safe and reliable environment for your LTC transactions.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-clock"></i>
+                    <h3>24/7 Availability</h3>
+                    <p>Our bot is always available, ensuring your transactions are handled anytime.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-headset"></i>
+                    <h3>Dedicated Support</h3>
+                    <p>Our staff is always ready to help you with any issues you might face.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-robot"></i>
+                    <h3>Advanced Automation</h3>
+                    <p>Enjoy the benefits of advanced automation with our state-of-the-art bot.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <p>Follow these simple steps to start using Bluemm:</p>
+            <ol>
+                <li>Invite Bluemm to your Discord server.</li>
+                <li>Setup the bot for your server using /setup.</li>
+                <li>Start the deal via panel created.</li>
+                <li>Follow the on-screen instructions to complete your trade securely.</li>
+            </ol>
+        </div>
+    </section>
+    <section id="faq">
+        <div class="container">
+            <h2>FAQ</h2>
+            <p>Here are some frequently asked questions:</p>
+            <p><strong>Q:</strong> How do I invite Bluemm?<br><strong>A:</strong> Use the invite link provided on the Invite page.</p>
+            <p><strong>Q:</strong> Is Bluemm secure?<br><strong>A:</strong> Yes, Bluemm uses advanced security protocols to ensure your transactions are safe.</p>
+            <p><strong>Q:</strong> What if my funds get Stuck?<br><strong>A:</strong> If your funds do get stuck, you can use the command /support to contact us directly.</p>
+            <p><strong>Q:</strong> What if the bot is unresponsive<br><strong>A:</strong> If the bot is unresponsive, you can report that in our support server.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <a href="https://discord.gg/fusionmm" class="button">Join Support Server</a>
+            <a href="https://discord.com/oauth2/authorize?client_id=861696191346245633&scope=bot+applications.commands&permissions=8" class="button">Invite Bluemm to your server</a>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bluemm. All rights reserved.</p>
+            <p>
+                <a href="#privacy-policy">Privacy Policy</a> | 
+                <a href="#terms-of-service">Terms of Service</a> | 
+                <a href="#store">Store</a>
+            </p>
+        </div>
+    </footer>
+    <script src="web/scripts.js"></script>
 </body>
 </html>
